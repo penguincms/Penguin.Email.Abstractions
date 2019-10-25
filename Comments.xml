@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Penguin.Email.Abstractions</name>
+        <name>Penguin.Email.Abstractions.Local</name>
     </assembly>
     <members>
         <member name="M:Penguin.Email.Abstractions.Extensions.IQueueAndSendMailExtensions.TryQueueAndSend(Penguin.Email.Abstractions.Interfaces.IQueueAndSendMail,Penguin.Email.Abstractions.Interfaces.IEmailMessage)">

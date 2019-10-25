@@ -7,6 +7,6 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.csproj" />
+    <ProjectReference Include="..\Penguin.Files.Abstractions\Penguin.Files.Abstractions.Local.csproj" />
   </ItemGroup>
 </Project>

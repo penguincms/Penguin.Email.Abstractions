@@ -7,6 +7,6 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Files.Abstractions" Version="2.0.1-T9LXGUJ" />
+    <PackageReference Include="Penguin.Files.Abstractions" Version="2.0.2-T9M1HHH" />
   </ItemGroup>
 </Project>

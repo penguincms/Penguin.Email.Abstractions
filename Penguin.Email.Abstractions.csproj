@@ -7,6 +7,7 @@
     <Description>Not Available</Description>
     <AssemblyName>Penguin.Email.Abstractions</AssemblyName>
     <RootNamespace>Penguin.Email.Abstractions</RootNamespace>
+    <DocumentationFile>Penguin.Email.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Files.Abstractions" Version="2.0.2-T9QC72V" />

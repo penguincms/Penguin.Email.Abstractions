@@ -10,6 +10,6 @@
     <DocumentationFile>Penguin.Email.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Files.Abstractions" Version="2.0.2-T9W7B2P" />
+    <PackageReference Include="Penguin.Files.Abstractions" Version="2.0.2-T9X8YHS" />
   </ItemGroup>
 </Project>

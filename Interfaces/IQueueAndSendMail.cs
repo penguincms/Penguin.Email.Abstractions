@@ -18,7 +18,7 @@
         void QueueOrSend(IEmailMessage message);
 
         /// <summary>
-        /// Copies the provided message and requeues it with an optional new recipient, marks it sent, and then immediately sends it
+        /// Copies the provided message and re-queues it with an optional new recipient, marks it sent, and then immediately sends it
         /// </summary>
         /// <param name="message">The message to copy</param>
         /// <param name="newRecipient">If not null, the value will replace the former recipient</param>

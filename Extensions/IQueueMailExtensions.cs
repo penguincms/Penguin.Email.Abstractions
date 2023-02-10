@@ -6,18 +6,12 @@ namespace Penguin.Email.Abstractions.Extensions
     {
         public static void TryQueue<T>(this IQueueMail sender, IEmailMessage message)
         {
-            if (sender != null)
-            {
-                sender.Queue(message);
-            }
+            sender?.Queue(message);
         }
 
         public static void TryReQueue<T>(this IQueueMail sender, IEmailMessage message, string newRecipient = null)
         {
-            if (sender != null)
-            {
-                sender.ReQueue(message, newRecipient);
-            }
+            sender?.ReQueue(message, newRecipient);
         }
     }
 }

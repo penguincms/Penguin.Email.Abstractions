@@ -6,10 +6,7 @@ namespace Penguin.Email.Abstractions.Extensions
     {
         public static void TrySend(this ISendMail sender, IEmailMessage message)
         {
-            if (sender != null)
-            {
-                sender.Send(message);
-            }
+            sender?.Send(message);
         }
     }
 }
